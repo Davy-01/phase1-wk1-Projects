@@ -1,3 +1,19 @@
+const readline = require('readline');
+
+const user = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+user.question('What is your basic Salary? ', (basicSalary) => {
+    console.log(basicSalary);
+
+    user.question('How much are your benefits'),(benefits)=>{
+        console.log(benefits)
+    }
+    rl.close();
+  });
+
+
 //function for getting grossSalary
 function grossSalary(basicSalary, benefits){
     return basicSalary + benefits
@@ -18,3 +34,4 @@ function grossSalary(basicSalary, benefits){
         deductions
     };
 
+    
