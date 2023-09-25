@@ -25,6 +25,7 @@ echo "This is my readme file" > README.md
 
 
 # CHALENGE3
+- add a readline function to prompt salary and benefits from a user 
 - Declare a grossSalary function
 - Declare a netSalary function
 - Find deductions

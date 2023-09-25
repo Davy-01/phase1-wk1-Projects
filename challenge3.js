@@ -1,5 +1,5 @@
+//Create a readline user interface
 const readline = require('readline');
-
 const user = readline.createInterface({
   input: process.stdin,
   output: process.stdout
@@ -10,7 +10,7 @@ user.question('What is your basic Salary? ', (basicSalary) => {
     user.question('How much are your benefits'),(benefits)=>{
         console.log(benefits)
     }
-    rl.close();
+    user.close();
   });
 
 
