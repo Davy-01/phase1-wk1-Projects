@@ -6,9 +6,11 @@ function grossSalary(basicSalary, benefits){
    function netSalary (grossSalary, deductions){
     return grossSalary - deductions}
     
-    
-//Finding deductions
-   const deductions=(paye,nhifDeduction, nssfDeduction)=> paye + nhifDeduction + nssfDeduction;
+    //Finding deductions
+    const paye = (0.1 * grossSalary)
+    const nssfDeduction = (0.06 * grossSalary)
+    const deductions=(paye,nhifDeduction, nssfDeduction)=> paye + nhifDeduction + nssfDeduction;
+  
  
     return {
         grossSalary,
