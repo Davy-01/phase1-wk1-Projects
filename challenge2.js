@@ -2,8 +2,8 @@
 function speedDetector(speed){
     //Work demerit points
     const demeritPoints = ((speed-70)/5)
-    //Set conditions when invoking function
-      if (speed<70){
+    //Set conditions for when invoking function
+      if (speed<=70){
           console.log("Ok")
       }else if(demeritPoints<12){
           console.log(demeritPoints)
