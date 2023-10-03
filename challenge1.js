@@ -24,4 +24,4 @@ const studentGrade = function(){
 //Invoking the function
 studentGrade();
 
-//The function should now console.log one of the conditional statements
+//The function should now console.log the conditional statement that applies to the marks range
