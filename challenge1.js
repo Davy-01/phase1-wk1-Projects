@@ -4,7 +4,8 @@ let marks = prompt("What is your marks?")
 
 //Declare function to assess a student's grade
 const studentGrade = function(){
-//If and else if to ascertain conditions for Grading    
+//If and else if to ascertain conditions for Grading  
+// Marks entered from the prompt is used to assign the grades to the marks using the conditions.  
     if(marks>79){
         console.log("A")
     }else if(marks>=60 && marks<=79){
@@ -22,3 +23,5 @@ const studentGrade = function(){
 
 //Invoking the function
 studentGrade();
+
+//The function should now console.log one of the conditional statements
