@@ -13,4 +13,4 @@ function speedDetector(speed){
       }
   }
 
-//The function should now console.log one of the conditional statements
+//The function should now console.log one the conditional statements matching the speed range
