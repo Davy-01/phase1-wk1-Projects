@@ -76,5 +76,5 @@ user.question("What is your basic salary?", (basicSalaryInput) => {
   });
 });
 
-
+//The netSalary should now display when we  run the code
     
